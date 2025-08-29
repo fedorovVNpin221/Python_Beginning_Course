@@ -33,7 +33,7 @@ def main():
         'ДЗ': {
             '3': os.path.join("homework_3", "tasks_1-5.py"),
             '4': os.path.join("homework_4", "tasks_1-7.py"),
-            '5': os.path.join("homework_5", "tasks_1-5.py"),
+            '5': os.path.join("homework_5", "tasks_1-3.py"),
         },
         'Уроки': {
             '2': os.path.join("lesson_1-2", "lesson_2.py"),
