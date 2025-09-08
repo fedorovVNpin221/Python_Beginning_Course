@@ -35,6 +35,7 @@ def main():
             '4': os.path.join("homework_4", "tasks_1-7.py"),
             '5': os.path.join("homework_5", "tasks_1-3.py"),
             '6': os.path.join("homework_6", "tasks_1-3.py"),
+            '7': os.path.join("homework_7", "tasks_1-3.py"),
         },
         'Уроки': {
             '2': os.path.join("lesson_1-2", "lesson_2.py"),
@@ -46,6 +47,7 @@ def main():
             '8': os.path.join("lesson_7-8", "lesson_8.py"),
             '9': os.path.join("lesson_9-10", "lesson_9.py"),
             '10': os.path.join("lesson_9-10", "lesson_10.py"),
+            '11': os.path.join("lesson_11-12", "lesson_11.py"),
         }
     }
 
