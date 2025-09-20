@@ -1,0 +1,24 @@
+Ссылки на полезные материалы:
+
+1. Онлайн-курсы Stepik "Python для начинающих"
+https://stepik.org/course/58852/promo?search=7855126856
+
+2. Онлайн-курсы Stepik "Python для продвинутых"
+https://stepik.org/course/68343/promo?search=7855142980
+
+3. Сервис для прокачки навыков программирования
+https://leetcode.com
+
+4. Онлайн визуализатор кода Python
+https://www.codechef.com/python-online-compiler
+
+5. Хабр - статьи и новости из мира IT
+https://habr.com/ru/articles
+
+6. Stack Overflow - решения проблем от разработчиков
+https://stackoverflow.com/?tab=interesting
+
+7. Нейросети
+https://www.deepseek.com
+https://www.perplexity.ai
+https://www.blackbox.ai

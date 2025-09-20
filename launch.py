@@ -51,6 +51,7 @@ def main():
             '11': os.path.join("lesson_11-12", "lesson_11.py"),
             '13': os.path.join("lesson_13-14", "lesson_13.py"),
             '14': os.path.join("lesson_13-14", "lesson_14.py"),
+            '15': os.path.join("lesson_15-16", "lesson_15.py"),
         }
     }
 

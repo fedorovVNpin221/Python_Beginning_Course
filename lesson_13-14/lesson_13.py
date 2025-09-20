@@ -16,7 +16,7 @@ class Plot:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-    
+
     def create_plot(self):
         # Создаем фигуру и оси
         fig, ax = plt.subplots(figsize=(10, 6))
@@ -80,7 +80,9 @@ async def cancel_command(message: types.Message):
     if user_id in user_data:
         del user_data[user_id]
     await message.answer("🚫 Текущая операция отменена. Напиши /start чтобы начать заново")
-    # Обработчик текстовых сообщений
+
+
+# Обработчик текстовых сообщений
 @dp.message()
 async def handle_message(message: types.Message):
     user_id = message.from_user.id
