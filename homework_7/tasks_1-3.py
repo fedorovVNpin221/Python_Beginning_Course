@@ -6,7 +6,7 @@ import numpy as np
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QTableWidget, 
                              QTableWidgetItem, QVBoxLayout, QWidget, QHeaderView)
 from PyQt5.QtCore import Qt
-from classBook import Book
+from .classBook import Book
 
 
 # Задача №1
