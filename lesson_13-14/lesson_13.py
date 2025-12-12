@@ -47,7 +47,8 @@ user_data = {}
 
 # Обработчик команды /start
 @dp.message(Command("start"))
-async def start_command(message: types.Message):
+async def start_command(message: types.Message): # Асинхронная фнукция для обработки команды 
+    # пользователя "/start"
     user_id = message.from_user.id
     # Очищаем предыдущие данные пользователя
     if user_id in user_data:
@@ -60,7 +61,8 @@ async def start_command(message: types.Message):
 
 # Обработчик команды /help
 @dp.message(Command("help"))
-async def help_command(message: types.Message):
+async def help_command(message: types.Message):  # Асинхронная фнукция для обработки команды 
+    # пользователя "/help"
     await message.answer(
         "📖 Как использовать бота:\n"
         "1. Отправь значения X через запятую\n"
@@ -75,8 +77,9 @@ async def help_command(message: types.Message):
 
 # Обработчик команды /cancel для сброса
 @dp.message(Command("cancel"))
-async def cancel_command(message: types.Message):
-    user_id = message.from_user.id
+async def cancel_command(message: types.Message):  # Асинхронная фнукция для обработки команды 
+    # пользователя "/cancel" и сброса ввода
+    user_id = message.from_user.id 
     if user_id in user_data:
         del user_data[user_id]
     await message.answer("🚫 Текущая операция отменена. Напиши /start чтобы начать заново")
@@ -84,7 +87,8 @@ async def cancel_command(message: types.Message):
 
 # Обработчик текстовых сообщений
 @dp.message()
-async def handle_message(message: types.Message):
+async def handle_message(message: types.Message):  # Асинхронная фнукция для обработки 
+    # любых текстовых сообщений пользователя и отправки ответа в виде графика функции
     user_id = message.from_user.id
     
     # Пропускаем команды

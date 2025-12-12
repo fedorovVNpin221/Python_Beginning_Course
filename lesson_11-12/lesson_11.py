@@ -40,7 +40,7 @@ class MainWindow(QMainWindow):
         count = 0
 
         # проходимся по списку списков игреков 
-        # и для каждого подсписка созадем отдельный график
+        # и для каждого подсписка создаем отдельный график
         for item in y_list:
             count += 1
             ax.plot(x, item, label=f"Функция {count}")
